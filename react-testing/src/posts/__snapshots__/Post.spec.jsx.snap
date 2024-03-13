@@ -1,0 +1,96 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Post > renders correctly 1`] = `
+<div>
+  <div
+    class="flex items-center"
+  >
+    <a
+      class="flex items-center"
+      href="/posts"
+    >
+      <svg
+        class="lucide lucide-arrow-big-left "
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18 15h-6v4l-7-7 7-7v4h6v6z"
+        />
+      </svg>
+      <span>
+        Return to posts
+      </span>
+    </a>
+    <button
+      class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 ml-12 cursor-pointer"
+    >
+      <svg
+        class="lucide lucide-share2 "
+        fill="none"
+        height="24"
+        id="copyIcon"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="18"
+          cy="5"
+          r="3"
+        />
+        <circle
+          cx="6"
+          cy="12"
+          r="3"
+        />
+        <circle
+          cx="18"
+          cy="19"
+          r="3"
+        />
+        <line
+          x1="8.59"
+          x2="15.42"
+          y1="13.51"
+          y2="17.49"
+        />
+        <line
+          x1="15.41"
+          x2="8.59"
+          y1="6.51"
+          y2="10.49"
+        />
+      </svg>
+    </button>
+  </div>
+  <div>
+    <div>
+      <h4
+        class="text-lg font-semibold mb-2 text-center"
+      >
+        sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+      </h4>
+      <p
+        class="text-lg"
+      >
+        quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+      </p>
+    </div>
+  </div>
+</div>
+`;
