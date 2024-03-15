@@ -6,5 +6,9 @@
     "user1": {
         "username": "testdemo4",
         "password": "Sirius2023."
+    },
+    "newUser1": {
+        "username":"test",
+        "password": "Sirius2024!" 
     }
 }

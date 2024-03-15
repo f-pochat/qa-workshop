@@ -3,7 +3,6 @@ import { render, screen, fireEvent, waitFor, renderHook } from '@/test'
 import { describe, expect, test, vi } from 'vitest'
 import userEvent from '@testing-library/user-event'
 import { PasswordTab } from '.';
-import { useToast } from '@/components/ui/use-toast';
 
 const mockToast = vi.fn()
 vi.mock('@/components/ui/use-toast', () => ({

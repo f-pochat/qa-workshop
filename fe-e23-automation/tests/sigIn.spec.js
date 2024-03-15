@@ -106,7 +106,7 @@ test('6. Log-in - Password should be masked', async () => {
         await myAccount.verLoginheader();
     })
     await test.step('Check password type', async () => {
-        await myAccount.passInputisTypePassword();
+        await myAccount.passInputIsTypePassword();
     });
 });
 
